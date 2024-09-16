@@ -1,0 +1,91 @@
+body{
+    background-color:  rgb(43, 43, 43);
+}
+.container{
+    display: flex;   
+    justify-content: center;
+    /* right: 5000px; */
+}
+
+h3{
+    color: darkgray;
+}
+
+.scrs{
+    justify-content: center;
+    display: flex;
+}
+.scrs div {
+    padding-left: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title{
+    color: beige;
+    position: center;
+    display:flex;
+    background-color: #db6c0f;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* width: 500px; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* left: 200px; */
+}
+
+
+.grid{
+    position:center;
+    justify-content: center;
+    margin-left: 150px;
+    width: 240px;
+    height: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-radius: 5px; */
+}
+
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(245, 245, 220); 
+    margin: 0.5px;  
+    /* border-radius: 2px; */
+    border: solid rgb(245, 245, 220) 0.1px;
+    
+}
+.grid div:nth-child(n + 201) {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: none;
+}
+
+
+.mini-grid{
+    margin-left: 50px;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    background-color: #db6c0f;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.mini-grid div{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin: 1px;
+}
+
+.tetromino{
+    background-color: rgb(255, 255, 255);
+}
